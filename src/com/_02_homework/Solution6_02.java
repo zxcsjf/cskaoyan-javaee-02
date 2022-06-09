@@ -1,4 +1,4 @@
-package _02_homework;
+package com._02_homework;
 
 /**打印倒三角形，并且行数（line）是可控制的。比如我想打印6行的倒三角形，则如下图：
  * ******

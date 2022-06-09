@@ -1,4 +1,4 @@
-package _02_homework;
+package com._02_homework;
 
 /** * 根据键盘录入打印n行m列井号，n和m是可变的。
  *

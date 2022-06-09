@@ -1,4 +1,4 @@
-package _02_homework;
+package com._02_homework;
 
 /**根据键盘录入打印nn乘法表，n是可变的。
  *

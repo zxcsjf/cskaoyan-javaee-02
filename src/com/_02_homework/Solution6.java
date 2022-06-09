@@ -1,4 +1,4 @@
-package _02_homework;
+package com._02_homework;
 
 /**
  * 方法是Java代码中最常用的语法结构，这里对方法的语法做一下练习。
