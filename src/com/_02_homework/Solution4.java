@@ -18,7 +18,7 @@ import java.util.Scanner;
  * @since 2022/06/07 18:42
  */
 public class Solution4 {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("请依次输入数学成绩：");

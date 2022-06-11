@@ -71,11 +71,11 @@ public class Demo2 {
         // System.out.println(s);
         // // System.out.println("\u0000".equals(null));
         // System.out.println("\u0000".equals(""));
-        System.out.println("\u0000".length());
-        System.out.println("".length());
-
-        char[] chars = new char[2];
-        System.out.println(chars[0]);
+        // System.out.println("\u0000".length());
+        // System.out.println("".length());
+        //
+        // char[] chars = new char[2];
+        // System.out.println(chars[0]);
 
 
 //         int [] array1 = {1, 2};

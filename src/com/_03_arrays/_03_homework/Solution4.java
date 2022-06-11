@@ -20,6 +20,12 @@ public class Solution4 {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = nums[i] / num;
         }
+        char[] chars = new char[1];
+
+        System.out.println("[" + "" + "]");
+
+        System.out.println(chars[0] == '\u0000');
+        System.out.println('\u0000');
 
         System.out.println(Arrays.toString(nums));
     }
