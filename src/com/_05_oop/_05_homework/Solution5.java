@@ -19,29 +19,42 @@ package com._05_oop._05_homework;
  */
 public class Solution5 {
     public static void main(String[] args) {
-        Item phone = new Item();
-        phone.name = "Samsung Galaxy S21";
-        phone.price = 8_000;
-        System.out.println(phone.sold(800));
-        System.out.println("----------");
-
-        Item furniture = new Item();
-        furniture.name = "海尔冰箱";
-        furniture.price = 3_000;
-        System.out.println(furniture.sold(3_000));
-        System.out.println("----------");
+        // Item phone = new Item();
+        // phone.name = "Samsung Galaxy S21";
+        // phone.price = 8_000;
+        // System.out.println(phone.sold(800));
+        // System.out.println("----------");
+        //
+        // Item furniture = new Item();
+        // furniture.name = "海尔冰箱";
+        // furniture.price = 3_000;
+        // System.out.println(furniture.sold(3_000));
+        // System.out.println("----------");
 
         Item commodity = new Item();
         commodity.name = "海飞丝洗发水";
         commodity.price = 30;
+
         System.out.println(commodity.sold(25));
 
     }
 }
 
 class Item {
-    String name;
-    double price;
+    String name = "潘婷";
+   double price = 10;
+
+    public Item() {
+    }
+
+    public Item(String name) {
+        this.name = name;
+    }
+
+    public Item(String name, double price) {
+        this(name);
+        this.price = price;
+    }
 
     public double sold(double money) {
         if (money >= price) {
