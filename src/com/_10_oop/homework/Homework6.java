@@ -20,19 +20,18 @@ public class Homework6 {
     public static void main(String[] args) {
         // 会返回提示信息：不能再创建学生对象了！
         for (int i = 0; i < 13; i++) {
-            System.out.println(Student.createStudent("张三", 23).age);
+            System.out.println(Student.createStudent("张三", 23).getAge() + "岁。");
         }
     }
 }
 
 class Student {
-    static int count = 0;
-    String name;
-    int age;
+   private static int count = 0;
+   private String name;
+   private int age;
 
     // 禁止构造方法
     private Student(String name, int age) {
-        count++;
         this.name = name;
         this.age = age;
     }
@@ -42,7 +41,24 @@ class Student {
             System.out.println("不能再创建学生对象了！");
             return null;
         }
+        count++;
         System.out.println("这是你创建的第" + count + "个学生。");
         return new Student(name, age);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
