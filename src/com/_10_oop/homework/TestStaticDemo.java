@@ -1,16 +1,24 @@
-package com._09_oop;
+package com._10_oop.homework;
 
 /**
+ * 操作题
+ *
  * @author zxcsjf
- * @since 2022/06/13 22:38
+ * @since 2022/06/14 19:30
  */
 public class TestStaticDemo {
-    static TestStaticDemo ts = new TestStaticDemo();
+    public static void main(String[] args) {
+        staticMethod();
+    }
 
-    int a = 666;
+    static TestStaticDemo ts = new TestStaticDemo();
 
     static {
         System.out.println("静态代码块");
+    }
+
+    {
+        System.out.println("构造代码块");
     }
 
     public TestStaticDemo() {
@@ -18,17 +26,11 @@ public class TestStaticDemo {
         System.out.println("a=" + a + ",b=" + b);
     }
 
-    {
-        System.out.println("构造代码块");
-    }
-
-    static int b = 777;
     public static void staticMethod() {
         System.out.println("静态成员方法");
     }
 
-    public static void main(String[] args) {
-        staticMethod();
-    }
+    int a = 666;
+    static int b = 777;
+    static TestStaticDemo ts2 = new TestStaticDemo();
 }
-
