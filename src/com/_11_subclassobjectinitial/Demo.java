@@ -70,6 +70,6 @@ class PrimaryStudent extends Student {
     public PrimaryStudent(int psVar, int sVar, String sVarString) {
         super(sVar, sVarString);
         System.out.println("PrimaryStudent类的 三参构造");
-        this.psVar = psVar = 100;
+        this.psVar = psVar;
     }
 }
