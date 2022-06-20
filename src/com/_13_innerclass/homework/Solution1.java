@@ -37,6 +37,7 @@ public class Solution1 {
         teacher.eat();
         teacher.sleep();
         ((Teacher) teacher).learning();
+
     }
 }
 
