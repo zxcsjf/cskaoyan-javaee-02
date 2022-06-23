@@ -44,10 +44,11 @@ class Teacher implements Cloneable {
         // 1.深度克隆是在浅克隆的基础上完成的
         Teacher cloneTeacher = (Teacher)super.clone();
         // 2.克隆一份对象中引用指向的对象
-        Student cloneStudent = stu.clone();
+        Student cloneStudent = this.stu.clone();
         // 3.让克隆引用,指向克隆对象
         cloneTeacher.stu = cloneStudent;
         return cloneTeacher;
+        // return super.clone();
     }
 }
 
@@ -86,7 +87,6 @@ class Star implements Cloneable {
     @Override
     protected Star clone() throws CloneNotSupportedException {
         // 1.深度克隆是在浅克隆的基础上完成的
-        Star cloneStar = (Star) super.clone();
-        return cloneStar;
+        return (Star) super.clone();
     }
 }

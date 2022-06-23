@@ -1,6 +1,5 @@
 package com._12_.homework.additional2;
 
-import sun.management.Agent;
 
 /**
  * 2. 将以下代码复制到IDEA中，思考代码为什么会编译报错。然后尝试修改代码，让代码不要报错。

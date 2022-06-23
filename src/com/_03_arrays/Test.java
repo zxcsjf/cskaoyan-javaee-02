@@ -10,7 +10,6 @@ import java.util.Scanner;
  */
 public class Test {
 
-    @org.junit.Test
     public void test1() {
         System.out.println("input a num: ");
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,5 @@
 package com._13_innerclass;
 
-import org.junit.Test;
 
 /**
  * @author zxcsjf

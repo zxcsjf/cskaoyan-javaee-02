@@ -1,6 +1,5 @@
 package com._13_innerclass.homework;
 
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
 
 /**
  * 接口与抽象类基础语法练习

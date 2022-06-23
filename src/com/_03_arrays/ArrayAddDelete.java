@@ -1,6 +1,5 @@
 package com._03_arrays;
 
-import com.sun.org.apache.bcel.internal.generic.DLOAD;
 
 import java.util.Arrays;
 

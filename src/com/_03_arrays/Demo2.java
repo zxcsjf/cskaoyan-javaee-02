@@ -1,13 +1,6 @@
 package com._03_arrays;
 
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-import sun.security.krb5.SCDynamicStoreConfig;
-
-import javax.swing.text.html.CSS;
-import java.security.PublicKey;
-import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * @author zxcsjf

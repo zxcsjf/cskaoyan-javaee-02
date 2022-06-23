@@ -61,7 +61,6 @@ public class Demo {
     }
 }
 class Test {
-@org.junit.Test
     public void test(Person p) {
         p.eat();
     }

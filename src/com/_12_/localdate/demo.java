@@ -1,6 +1,5 @@
 package com._12_.localdate;
 
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
 
 import java.time.LocalDate;
 
