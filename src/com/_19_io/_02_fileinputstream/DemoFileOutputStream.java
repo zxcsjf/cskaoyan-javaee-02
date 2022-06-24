@@ -1,6 +1,5 @@
-package com._18_exception.test.io.test;
+package com._19_io._02_fileinputstream;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -9,7 +8,7 @@ import java.io.OutputStream;
  * @author zxcsjf
  * @since 2022/06/23 16:29
  */
-public class Demo2 {
+public class DemoFileOutputStream {
     public static void main(String[] args) throws IOException {
         // 创建字节输出流对象
         OutputStream out = new FileOutputStream("a.txt");

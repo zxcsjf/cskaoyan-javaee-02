@@ -1,8 +1,7 @@
-package com._18_exception.test.io.test;
+package com._19_io;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
 
 /**
  * @author zxcsjf
